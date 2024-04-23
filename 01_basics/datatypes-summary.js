@@ -22,4 +22,28 @@ const myFunction = function(){
     console.log("Hello World")
 }
 
-console.log(typeof bigNumber)
+// console.log(typeof bigNumber)
+
+//************************************************************//
+
+// Stack(primitive) 
+// heap(non-primitive)
+
+let myYoutubeName = "hiteshChoudharydotcom";
+
+let anotherName = myYoutubeName;
+anotherName = 'chaiaurcode';
+// console.log(myYoutubeName)
+// console.log(anotherName);
+
+let userOne = {
+    email:"google@gmail.com",
+    upi: "ankit@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
